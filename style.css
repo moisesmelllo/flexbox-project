@@ -130,12 +130,16 @@ img {
 
 .produtos {
   max-width: 960px;
-  margin: 60 auto;
+  margin: 60px auto;
+  justify-content: center;
 }
 
 .produtos h1 {
+  display: flex;
   font-size: 3em;
-  margin: 0 10px 60px 10px
+  margin: 30px auto;
+  padding: 30px 30px;
+  justify-content: center;
 }
 
 .produtos-container {
